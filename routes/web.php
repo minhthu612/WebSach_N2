@@ -35,3 +35,4 @@ Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
 
+Route::get("/binhchoncao","App\Http\Controllers\Movie_Controller@binhchoncao");
