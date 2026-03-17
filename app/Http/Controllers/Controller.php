@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+class Controller
 {
-    //
+    function HMT()
+    {
+        return "Huỳnh Minh Thư";
+    }
 }
