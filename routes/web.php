@@ -21,9 +21,7 @@ Route::get("/suadulieu","App\Http\Controllers\Book_Controller2@suadulieu");
 Route::get("/qlsach/theloai","App\Http\Controllers\Book_Controller2@laythongtintheloai");
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\Book_Controller2@laythongtinsach");
 
-<<<<<<< HEAD
+
 Route::get("/HuynhMinhThu","App\Http\Controllers\Controller@HMT");
 
-=======
-Route::get("/VanCongThien","App\Http\Controllers\Controller@VanCongThien");
->>>>>>> d47049dc647d877303cc4265d7a8e48b519569aa
+
