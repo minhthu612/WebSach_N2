@@ -19,4 +19,6 @@ class Book_Controller extends Controller
                                 ->where('nha_xuat_ban','van_hoc')->get();
         return view('qlsach.thong_tin_sach',compact('sach'));
     }
+
+   
 }
