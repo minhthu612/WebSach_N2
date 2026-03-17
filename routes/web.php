@@ -27,6 +27,7 @@ Route::get("/DaoDangThuyVan","App\Http\Controllers\Controller@ZanThi");
 
 Route::get("/VanCongThien","App\Http\Controllers\Controller@VanCongThien");
 Route::get("/HuynhMinhThu","App\Http\Controllers\Controller@HMT");
+Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 
 
 

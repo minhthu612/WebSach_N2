@@ -16,4 +16,8 @@ class Controller
     {
         return "Văn Công Thiện";
     }
+    function tlda()
+    {
+        return "Trần Lê Đông Anh";
+    }
 }
