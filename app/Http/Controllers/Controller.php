@@ -26,4 +26,10 @@ class Controller
         return "Trần Lê Đông Anh";
 
     }
+    function hnt()
+    {
+        return "Hồ Ngọc Tiền";
+
+    }
+
 }

@@ -32,6 +32,6 @@ Route::get("/VanCongThien","App\Http\Controllers\Controller@VanCongThien");
 Route::get("/HuynhMinhThu","App\Http\Controllers\Controller@HMT");
 Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 
-
+Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
 
