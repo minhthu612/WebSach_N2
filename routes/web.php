@@ -35,13 +35,13 @@ Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
 
-<<<<<<< HEAD
+
 /*7.1*/
 Route::get("/genre","App\Http\Controllers\Movie_Controller@genre");
 
 /*7.7*/
 Route::get("/topmovie","App\Http\Controllers\Movie_Controller@topMovie");
 
-=======
+
 Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
->>>>>>> 8b01854ac15af6f88486dbc927d21ae414f66f7e
+
