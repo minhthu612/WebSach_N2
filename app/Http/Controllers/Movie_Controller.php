@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
+
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class Movie_Controller extends Controller
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     public function genre()
     {
         $genres = DB::table('genre')->get();
@@ -23,8 +24,7 @@ class Movie_Controller extends Controller
 
         return view('topmovie',compact('movies'));
     }
-}
-=======
+
     function FilmCanada()
     {
        $movies = DB::table("movie")
@@ -34,9 +34,8 @@ class Movie_Controller extends Controller
 
         return view("filmcanada", compact("movies"));
     }
-}
->>>>>>> 8b01854ac15af6f88486dbc927d21ae414f66f7e
-=======
+
+
     public function topBudget() {
         $movies = DB::table('movie')
             ->orderByDesc('budget')
@@ -45,5 +44,17 @@ class Movie_Controller extends Controller
 
         return view('top_budget', compact('movies'));
     }
+
+
+    public function topRuntime()
+    {
+        $movies = DB::table('movie')
+            ->select('movie_name', 'release_date', 'runtime')
+            ->where('runtime', '>', 120)
+            ->limit(10)
+            ->get();
+
+        return view('topruntime', compact('movies'));
+    }
 }
->>>>>>> ef10f0df19f4a0409a0b37f3739b91ef59961ef1
+

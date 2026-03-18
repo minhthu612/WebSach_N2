@@ -33,6 +33,9 @@ Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
+/*7.4*/
+Route::get("/topruntime","App\Http\Controllers\Movie_Controller@topRuntime");
+
 
 
 /*7.1*/
