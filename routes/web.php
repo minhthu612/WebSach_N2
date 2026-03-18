@@ -36,6 +36,7 @@ Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
 
 
+
 /*7.1*/
 Route::get("/genre","App\Http\Controllers\Movie_Controller@genre");
 
@@ -44,4 +45,7 @@ Route::get("/topmovie","App\Http\Controllers\Movie_Controller@topMovie");
 
 
 Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
+
+
+Route::get("/binhchoncao","App\Http\Controllers\Movie_Controller@binhchoncao");
 
