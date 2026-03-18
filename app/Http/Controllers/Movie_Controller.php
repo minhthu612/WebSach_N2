@@ -12,6 +12,7 @@ class Movie_Controller extends Controller
         $movies = DB::table('movie')
             ->select('movie_name', 'release_date', 'runtime')
             ->where('runtime', '>', 120)
+            
             ->limit(10)
             ->get();
 
