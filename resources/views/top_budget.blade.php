@@ -17,7 +17,3 @@
     @endforeach
 </table>
 
-@foreach($movies as $m)
-    <p>{{ $m->movie_name }} - {{ $m->budget }}</p>
-@endforeach
-

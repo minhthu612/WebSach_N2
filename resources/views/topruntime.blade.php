@@ -23,15 +23,7 @@
         @endforeach
     </table>
 
-    <ul>
-        @foreach($movies as $movie)
-            <li>
-                {{ $movie->movie_name }} - 
-                {{ $movie->release_date }} - 
-                {{ $movie->runtime }} phút
-            </li>
-        @endforeach
-    </ul>
+
 
 
 </body>

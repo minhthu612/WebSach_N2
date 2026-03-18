@@ -22,12 +22,5 @@
 
 </table>
 
-@foreach($genres as $row)
-    <p>
-        {{ $row->genre_name }} - {{ $row->genre_name_vn }}
-    </p>
-@endforeach
-
-
 </body>
 </html>

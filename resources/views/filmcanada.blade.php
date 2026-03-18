@@ -29,14 +29,5 @@
     <strong>Thời lượng</strong>
 </p>
 
-@foreach ($movies as $movie)
-    <p>
-        {{ $movie->movie_name }} 
-        {{ $movie->release_date }} 
-        {{ $movie->runtime }} phút
-    </p>
-@endforeach
-
-
 </body>
 </html>
