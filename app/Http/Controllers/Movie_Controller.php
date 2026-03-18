@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 class Movie_Controller extends Controller
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function genre()
     {
         $genres = DB::table('genre')->get();
@@ -35,3 +36,14 @@ class Movie_Controller extends Controller
     }
 }
 >>>>>>> 8b01854ac15af6f88486dbc927d21ae414f66f7e
+=======
+    public function topBudget() {
+        $movies = DB::table('movie')
+            ->orderByDesc('budget')
+            ->limit(10)
+            ->get();
+
+        return view('top_budget', compact('movies'));
+    }
+}
+>>>>>>> ef10f0df19f4a0409a0b37f3739b91ef59961ef1

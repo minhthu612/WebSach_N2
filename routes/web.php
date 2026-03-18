@@ -21,7 +21,6 @@ Route::get("/suadulieu","App\Http\Controllers\Book_Controller2@suadulieu");
 Route::get("/qlsach/theloai","App\Http\Controllers\Book_Controller2@laythongtintheloai");
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\Book_Controller2@laythongtinsach");
 
-
 Route::get("/tranthithanhtien","App\Http\Controllers\Controller@tt");
 
 
@@ -33,7 +32,6 @@ Route::get("/HuynhMinhThu","App\Http\Controllers\Controller@HMT");
 Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
-
 
 
 
@@ -49,3 +47,4 @@ Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
 
 Route::get("/binhchoncao","App\Http\Controllers\Movie_Controller@binhchoncao");
 
+Route::get("/top-budget","App\Http\Controllers\Movie_Controller@topBudget");
