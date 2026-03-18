@@ -1,5 +1,6 @@
 <h1>Top 10 Movies by Budget</h1>
 
+
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
         <th>STT</th>
@@ -15,3 +16,8 @@
         </tr>
     @endforeach
 </table>
+
+@foreach($movies as $m)
+    <p>{{ $m->movie_name }} - {{ $m->budget }}</p>
+@endforeach
+

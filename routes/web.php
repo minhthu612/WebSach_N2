@@ -21,7 +21,6 @@ Route::get("/suadulieu","App\Http\Controllers\Book_Controller2@suadulieu");
 Route::get("/qlsach/theloai","App\Http\Controllers\Book_Controller2@laythongtintheloai");
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\Book_Controller2@laythongtinsach");
 
-
 Route::get("/tranthithanhtien","App\Http\Controllers\Controller@tt");
 
 
@@ -34,4 +33,25 @@ Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
 
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
+
+/*7.4*/
+Route::get("/topruntime","App\Http\Controllers\Movie_Controller@topRuntime");
+
+
+
+/*7.1*/
+Route::get("/genre","App\Http\Controllers\Movie_Controller@genre");
+
+/*7.7*/
+Route::get("/topmovie","App\Http\Controllers\Movie_Controller@topMovie");
+
+
+Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
+
+
+Route::get("/binhchoncao","App\Http\Controllers\Movie_Controller@binhchoncao");
+
+Route::get("/top-budget","App\Http\Controllers\Movie_Controller@topBudget");
+
+Route::get("/C7_6","App\Http\Controllers\Movie_Controller@C7_6");
 

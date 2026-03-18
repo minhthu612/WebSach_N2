@@ -6,6 +6,7 @@
 
 <h1>Danh sách thể loại phim</h1>
 
+
 <table border="1">
     <tr>
         <th>Tên thể loại</th>
@@ -20,6 +21,13 @@
     @endforeach
 
 </table>
+
+@foreach($genres as $row)
+    <p>
+        {{ $row->genre_name }} - {{ $row->genre_name_vn }}
+    </p>
+@endforeach
+
 
 </body>
 </html>
