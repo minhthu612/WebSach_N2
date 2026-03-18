@@ -6,15 +6,25 @@
 <body>
     <h2>10 phim có thời lượng > 120 phút</h2>
 
-    <ul>
+
+    <table border="1">
+        <tr>
+            <th>Tên phim</th>
+            <th>Ngày phát hành</th>
+            <th>Thời lượng</th>
+        </tr>
+
         @foreach($movies as $movie)
-            <li>
-                {{ $movie->movie_name }} - 
-                {{ $movie->release_date }} - 
-                {{ $movie->runtime }} phút
-            </li>
+        <tr>
+            <td>{{ $movie->movie_name }}</td>
+            <td>{{ $movie->release_date }}</td>
+            <td>{{ $movie->runtime }} phút</td>
+        </tr>
         @endforeach
-    </ul>
+    </table>
+
+
+
 
 </body>
 </html>
