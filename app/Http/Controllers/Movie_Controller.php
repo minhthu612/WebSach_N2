@@ -78,4 +78,3 @@ class Movie_Controller extends Controller
     }
 }
 
-

@@ -55,3 +55,5 @@ Route::get("/top-budget","App\Http\Controllers\Movie_Controller@topBudget");
 
 Route::get("/C7_6","App\Http\Controllers\Movie_Controller@C7_6");
 
+
+
