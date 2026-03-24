@@ -36,4 +36,9 @@ class ViduLayoutController extends Controller
     return view("vidusach.chitiet",compact("data"));
     }
 
+    public function show($id) {
+    $book = Book::findOrFail($id);
+    return view('books.show', compact('book'));
+}
+
 }

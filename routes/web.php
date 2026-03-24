@@ -56,6 +56,7 @@ Route::get("/top-budget","App\Http\Controllers\Movie_Controller@topBudget");
 Route::get("/C7_6","App\Http\Controllers\Movie_Controller@C7_6");
 
 
+
 /*TH1-VD1*/
 Route::get('/trang1','App\Http\Controllers\ViduLayoutController@trang1');
 Route::get('/trang2','App\Http\Controllers\ViduLayoutController@trang2');
@@ -66,5 +67,4 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@thelo
 
 /*TH1-BT*/
 Route::get('sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
-
 
