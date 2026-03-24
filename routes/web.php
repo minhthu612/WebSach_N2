@@ -21,7 +21,6 @@ Route::get("/suadulieu","App\Http\Controllers\Book_Controller2@suadulieu");
 Route::get("/qlsach/theloai","App\Http\Controllers\Book_Controller2@laythongtintheloai");
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\Book_Controller2@laythongtinsach");
 
-
 Route::get("/tranthithanhtien","App\Http\Controllers\Controller@tt");
 
 
@@ -31,10 +30,43 @@ Route::get("/DaoDangThuyVan","App\Http\Controllers\Controller@ZanThi");
 Route::get("/VanCongThien","App\Http\Controllers\Controller@VanCongThien");
 Route::get("/HuynhMinhThu","App\Http\Controllers\Controller@HMT");
 Route::get("/TranLeDongAnh","App\Http\Controllers\Controller@tlda");
-
 Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
+Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
+
+// 24/3: Vidulayout
+Route::get("/Hienthifilm", "App\Http\Controllers\Movie_Controller@FilmCanada");
+
+/* 7.4 */
+Route::get("/topruntime", "App\Http\Controllers\Movie_Controller@topRuntime");
+
+
+
+/*7.1*/
+Route::get("/genre","App\Http\Controllers\Movie_Controller@genre");
+
+/*7.7*/
+Route::get("/topmovie","App\Http\Controllers\Movie_Controller@topMovie");
 
 
 Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
 
-//24/3: Vidulayout
+
+Route::get("/binhchoncao","App\Http\Controllers\Movie_Controller@binhchoncao");
+
+Route::get("/top-budget","App\Http\Controllers\Movie_Controller@topBudget");
+
+Route::get("/C7_6","App\Http\Controllers\Movie_Controller@C7_6");
+
+
+/*TH1-VD1*/
+Route::get('/trang1','App\Http\Controllers\ViduLayoutController@trang1');
+Route::get('/trang2','App\Http\Controllers\ViduLayoutController@trang2');
+
+/*TH1-VD2*/
+Route::get('/sach','App\Http\Controllers\ViduLayoutController@sach');
+Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@theloai');
+
+/*TH1-BT*/
+Route::get('sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
+
+
