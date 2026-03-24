@@ -1,8 +1,10 @@
 <x-book-layout>
-
 <x-slot:title>
     Sách
 </x-slot:title>
+<x-slot name='title'>
+    Sách
+</x-slot>
 
 
 <style>
@@ -39,4 +41,5 @@
 </div>
 
 </x-book-layout>
+
 
