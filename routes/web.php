@@ -36,3 +36,5 @@ Route::get("/HoNgocTien","App\Http\Controllers\Controller@hnt");
 
 
 Route::get("/Hienthifilm","App\Http\Controllers\Movie_Controller@FilmCanada");
+
+//24/3: Vidulayout
