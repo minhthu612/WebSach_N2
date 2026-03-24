@@ -2,6 +2,7 @@
 
 <x-slot name='title'>
     Sách
+    
 </x-slot>
 
 
