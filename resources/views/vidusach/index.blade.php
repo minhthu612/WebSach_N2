@@ -1,8 +1,11 @@
-@extends("layouts.sach_layout")
+<x-book-layout>
+<x-slot:title>
+    Sách
+</x-slot:title>
+<x-slot name='title'>
+    Sách
+</x-slot>
 
-@section("title","Sách")
-
-@section("content")
 
 <style>
 .navbar {
@@ -37,6 +40,6 @@
     @endforeach
 </div>
 
-@endsection
+</x-book-layout>
 
 

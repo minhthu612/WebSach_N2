@@ -77,4 +77,3 @@ class Movie_Controller extends Controller
         return view("Binh_chon_cao",compact("phim"));        
     }
 }
-
