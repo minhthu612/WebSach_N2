@@ -35,5 +35,5 @@ class ViduLayoutController extends Controller
         /*DB::table("sach")->where("id",$id)->first();*/
     return view("vidusach.chitiet",compact("data"));
     }
-
+    
 }
