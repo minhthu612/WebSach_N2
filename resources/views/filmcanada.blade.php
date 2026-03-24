@@ -5,17 +5,14 @@
 
 <h2>Danh sách phim của Canada</h2>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 718e0470d6ad3cc0f29e0fef198b217339e98e64
 <table border="1">
     <tr>
         <th>Tên phim</th>
         <th>Ngày phát hành</th>
         <th>Thời lượng</th>
     </tr>
-<<<<<<< HEAD
+
+
 
     @foreach ($movies as $movie)
     <tr>
@@ -27,7 +24,7 @@
 
 </table>
 
-=======
+
 
     @foreach ($movies as $movie)
     <tr>
@@ -45,6 +42,5 @@
     <strong>Thời lượng</strong>
 </p>
 
->>>>>>> 718e0470d6ad3cc0f29e0fef198b217339e98e64
 </body>
 </html>
