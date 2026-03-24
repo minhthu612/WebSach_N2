@@ -67,4 +67,4 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@thelo
 /*TH1-BT*/
 Route::get('sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
 
-
+Route::get('/book/{id}', [BookController::class, 'show']);
