@@ -24,3 +24,4 @@ class BookLayout extends Component
         return view('components.book-layout');
     }
 }
+
