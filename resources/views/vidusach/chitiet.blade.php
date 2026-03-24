@@ -1,6 +1,8 @@
-@extends("layouts.sach_layout")
-@section("title","Chi tiết")
-@section("content")
+<x-book-layout>
+    <x-slot name ='title'>
+        Chi tiết
+    </x-slot>
+
 <style>
 .info
 {
@@ -43,3 +45,4 @@ Hình thức bìa: <b>{{$data->hinh_thuc_bia}}</b><br>
 <b>Mô tả:</b><br>
 {{$data->mo_ta}} </div>
 </div>@endsection
+</x-book-layout>
